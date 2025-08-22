@@ -1,30 +1,70 @@
-# Nuxt Dashboard Template
+# GTFS Editor
 
 [![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com/pro)
-[![Deploy to NuxtHub](https://img.shields.io/badge/Deploy%20to-NuxtHub-00DC82?logo=nuxt&labelColor=020420)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/dashboard)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Get started with the Nuxt dashboard template with multiple pages, collapsible sidebar, keyboard shortcuts, light & dark more, command palette and more, powered by [Nuxt UI Pro](https://ui.nuxt.com/pro).
+A modern, web-based GTFS (General Transit Feed Specification) editor built with Nuxt 4 and Nuxt UI Pro. This application provides an intuitive dashboard interface for creating, editing, and managing GTFS feeds for public transit systems.
 
-- [Live demo](https://dashboard-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/getting-started/installation/pro/nuxt)
+## 🎯 Project Objectives
 
-<a href="https://dashboard-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2Rhc2hib2FyZC10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTczOTQ2MzU2N30._VElt4uvLjvAMdnTLytCInOajMElzWDKbmvOaMZhZUI.jpg?theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2Rhc2hib2FyZC10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTczOTQ2MzU2N30._VElt4uvLjvAMdnTLytCInOajMElzWDKbmvOaMZhZUI.jpg?theme=light">
-    <img alt="Nuxt Dashboard Template" src="https://assets.hub.nuxt.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2Rhc2hib2FyZC10ZW1wbGF0ZS5udXh0LmRldiIsImlhdCI6MTczOTQ2MzU2N30._VElt4uvLjvAMdnTLytCInOajMElzWDKbmvOaMZhZUI.jpg">
-  </picture>
-</a>
+### Primary Goals
+- **Simplified GTFS Management**: Provide a user-friendly interface for transit agencies to create and maintain GTFS feeds without technical expertise
+- **Data Validation**: Built-in validation to ensure GTFS compliance and data integrity
+- **Import/Export Capabilities**: Support for importing existing GTFS feeds and exporting compliant GTFS packages
+- **Real-time Editing**: Live editing with instant feedback and preview capabilities
+- **Collaborative Workflow**: Multi-user support with role-based permissions and change tracking
 
-## Vue Dashboard Template
+### Key Features
+- 📊 **Dashboard Overview**: Comprehensive view of feed statistics and health metrics
+- 🚌 **Route Management**: Visual route editor with map integration
+- 🗓️ **Schedule Editor**: Intuitive calendar and timetable management
+- 📍 **Stop Management**: Geographic stop placement and editing tools
+- 🔍 **Data Validation**: Real-time GTFS specification compliance checking
+- 📤 **Export Tools**: Generate compliant GTFS ZIP packages
+- 📥 **Import Tools**: Parse and import existing GTFS feeds
+- 🗺️ **Map Integration**: Visual editing with interactive maps
+- 👥 **Multi-user Support**: Collaborative editing with user management
+- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-The dashboard template for Vue is on https://github.com/nuxt-ui-pro/dashboard-vue.
+## 🚀 Technology Stack
 
-## Quick Start
+- **Frontend Framework**: [Nuxt 4](https://nuxt.com/) with Vue 3
+- **UI Components**: [Nuxt UI Pro](https://ui.nuxt.com/pro)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
+- **Package Manager**: [PNPM](https://pnpm.io/)
+- **Data Validation**: [Zod](https://zod.dev/)
+- **Date Handling**: [date-fns](https://date-fns.org/)
+- **Visualization**: [@unovis](https://unovis.dev/)
 
-```bash [Terminal]
-npx nuxi@latest init -t github:nuxt-ui-pro/dashboard
-```
+## 📋 GTFS Specification Support
+
+This editor supports all core GTFS files and fields as defined in the [GTFS Reference](https://gtfs.org/reference/):
+
+### Required Files
+- `agency.txt` - Transit agency information
+- `stops.txt` - Stop locations and details
+- `routes.txt` - Transit routes
+- `trips.txt` - Individual trip instances
+- `stop_times.txt` - Stop time schedules
+- `calendar.txt` - Service date ranges
+
+### Optional Files
+- `calendar_dates.txt` - Service exceptions
+- `fare_attributes.txt` - Fare information
+- `fare_rules.txt` - Fare rules
+- `shapes.txt` - Route geometry
+- `frequencies.txt` - Frequency-based service
+- `transfers.txt` - Transfer rules
+- `feed_info.txt` - Feed metadata
+
+## 🎯 Target Users
+
+- **Transit Agencies**: Public transportation authorities managing bus, rail, and other transit services
+- **Transportation Consultants**: Professionals helping agencies implement GTFS feeds
+- **City Planners**: Urban planners working on transit accessibility and route optimization
+- **Developers**: Transit app developers needing to create or modify GTFS data
+- **Researchers**: Academic and policy researchers analyzing transit systems
 
 ## Setup
 
