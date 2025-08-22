@@ -1,7 +1,9 @@
-# GTFS Editor
+<img width="250" alt="databus" src="https://github.com/user-attachments/assets/b2ad45ac-83e5-44cf-a93e-898868763530" />
+
+# Editor
 
 [![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com/pro)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A modern, web-based GTFS (General Transit Feed Specification) editor built with Nuxt 4 and Nuxt UI Pro. This application provides an intuitive dashboard interface for creating, editing, and managing GTFS feeds for public transit systems.
 
