@@ -1,0 +1,109 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+*.tgz
+
+# Nuxt.js build / generate output
+.nuxt/
+.nitro/
+.output/
+dist/
+.vercel/
+.netlify/
+
+# Nuxt generate
+static/
+
+# Nuxt dev
+.tmp/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Temporary folders
+tmp/
+temp/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Stylelint cache
+.stylelintcache
+
+# Local Netlify folder
+.netlify/
+
+# Local Vercel folder
+.vercel/
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# vitest
+coverage
+
+# Sentry
+.sentryclirc
+
+# Wrangler (Cloudflare Workers)
+wrangler.toml
+
+# Service worker
+sw.*
+
+# Local data storage
+*.db
+*.sqlite
+*.sqlite3
